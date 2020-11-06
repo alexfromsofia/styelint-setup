@@ -1,0 +1,26 @@
+{
+  "editor.fontLigatures": true,
+  "eslint.packageManager": "yarn",
+  "eslint.options": {
+    "parserOptions": {
+      "project": ["${workspaceFolder}/tsconfig.json"]
+    }
+  },
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.stylelint": false
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.stylelint": false
+    }
+  },
+  "stylelint.validate": ["scss"]
+}
